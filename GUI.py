@@ -5,8 +5,6 @@ def start():
     output.delete(0.0,tkinter.END)
     op = Guuco.paper.load_data() + '\n'
     output.insert(tkinter.END, op)
-
-
 main = tkinter.Tk()
 main.geometry('800x600')
 main.title('Pour ton passwords')
