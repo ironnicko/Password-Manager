@@ -8,7 +8,7 @@ class Student:
         self.password = password
 
     def __str__(self):
-        return 'Name:%5s\nPassword:%4d'%(self.name, self.password)
+        return 'Name:%5s\nPassword:%4s'%(self.name, self.password)
 
 class Students:
 
